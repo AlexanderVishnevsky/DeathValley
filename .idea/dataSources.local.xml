@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="dv@localhost" uuid="aa527a29-a1d9-4874-b961-654a7262c9fe">
+      <database-info product="MySQL" version="5.7.21-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:dv</introspection-schemas>
+    </data-source>
+    <data-source name="jDeath@localhost" uuid="948907fc-a8a2-4fc4-826a-235a49276ead">
+      <database-info product="MySQL" version="5.7.21-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:jdeath</introspection-schemas>
+    </data-source>
+    <data-source name="vish@localhost" uuid="8fc3b77f-35af-48f6-879d-1c24b7d8f279">
+      <database-info product="MySQL" version="5.7.21-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:vish</introspection-schemas>
+    </data-source>
+  </component>
+</project>

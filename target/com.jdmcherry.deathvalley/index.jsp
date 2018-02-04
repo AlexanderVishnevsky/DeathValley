@@ -1,14 +1,19 @@
 <html>
+<head>
+    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; Charset=UTF-8">
+</head>
 <body>
-
-<form action="/getRichestUser" method="post">
-    <input type="text" name ="getUser" value="richest user">
+<p></p>
+<a href="/getRichest">
+    <input type="text" name="getUser" value="richest user">
     <input type="submit" value="check">
-</form>
-<form action="/getSum" method="post">
-    <input type="text" name ="getSum" value="account sum">
+</a>
+<p></p>
+<a href="/getAccountSum">
+    <input type="text" name="getSum" value="account sum">
     <input type="submit" value="check">
-</form>
-
+</a>
 </body>
 </html>
+
