@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="dv@localhost">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.17">
     <root id="1">
       <DefaultCasing>lower/lower</DefaultCasing>
     </root>
     <schema id="2" parent="1" name="dv">
       <Current>1</Current>
-      <Visible>1</Visible>
       <Collation>utf8mb4_general_ci</Collation>
     </schema>
     <schema id="3" parent="1" name="information_schema">
@@ -920,24 +919,24 @@
     </table>
     <column id="232" parent="230" name="account_id">
       <Position>1</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="233" parent="230" name="user_id">
       <Position>2</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="234" parent="230" name="amount">
       <Position>3</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="235" parent="230" name="user">
       <Position>4</Position>
-      <DataType>tinyblob|0</DataType>
+      <DataType>tinyblob|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <index id="236" parent="230" name="user_id">
@@ -956,24 +955,24 @@
     </foreign-key>
     <column id="239" parent="231" name="user_id">
       <Position>1</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="240" parent="231" name="name">
       <Position>2</Position>
-      <DataType>varchar(46)|0</DataType>
+      <DataType>varchar(46)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="241" parent="231" name="surName">
       <Position>3</Position>
-      <DataType>varchar(46)|0</DataType>
+      <DataType>varchar(46)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="242" parent="231" name="account">
       <Position>4</Position>
-      <DataType>tinyblob|0</DataType>
+      <DataType>tinyblob|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="243" parent="231" name="PRIMARY">

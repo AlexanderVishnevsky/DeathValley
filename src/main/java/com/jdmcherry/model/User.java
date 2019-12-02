@@ -1,7 +1,7 @@
 package com.jdmcherry.model;
 
-import javax.persistence.*;
 import javax.persistence.Entity;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "user")
